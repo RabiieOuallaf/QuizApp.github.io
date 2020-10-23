@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Work+Sans&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    min-height: 100vh;
+}
+
+.quizContainer {
+    background-color: #fff;
+    width: 430px;
+    max-width: 100%;
+    height: 360px;
+    display: block;
+    max-height: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 13px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+.quizHeader {
+    padding: 2rem;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    padding-left: 2rem;
+}
+ul li {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+ul li label {
+    cursor: pointer;
+}
+button {
+    background-color: #54a0ff;
+    color: white;
+    font-family: inherit;
+    width: 100%;
+    padding: 1.45rem;
+    border: none;
+    display: block;
+    margin-top: 70px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #70affc;
+}
